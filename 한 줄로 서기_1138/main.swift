@@ -5,15 +5,13 @@
 //  Created by ho jun lim on 2021/07/27.
 //
 
+
 import Foundation
 
 let n:Int = Int(readLine()!)!
-var line:[Int] = []
+var line:[Int] = readLine()!.split(separator: " ").map{Int($0)!}
 var answer:[Int] = []
 
-for _ in 0..<n{
-    line.append(Int(readLine()!)!)
-}
 
 for k in (0..<n).reversed(){
     answer.insert(k+1, at: line[k])
@@ -32,7 +30,6 @@ for k in (0..<n).reversed(){
 //        }
 //    }
 //}
-
 for elem in answer {
     print(elem, terminator:" ")
 }
