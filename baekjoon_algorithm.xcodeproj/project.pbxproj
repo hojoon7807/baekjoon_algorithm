@@ -12,6 +12,7 @@
 		4C4FD52A26A67491003B96F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4FD52926A67491003B96F4 /* main.swift */; };
 		4C4FD53926A67EBC003B96F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4FD53826A67EBC003B96F4 /* main.swift */; };
 		4C588D2E26AF08EF000ADC3E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C588D2D26AF08EF000ADC3E /* main.swift */; };
+		4C7EA1A426CBA1C500F23BCC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7EA1A326CBA1C500F23BCC /* main.swift */; };
 		4C8C2DB426B932B200ABAA23 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C2DB326B932B200ABAA23 /* main.swift */; };
 		4C9100CB26AF149C0072F8BE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9100CA26AF149C0072F8BE /* main.swift */; };
 		4C9100DD26AFE89E0072F8BE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9100DC26AFE89E0072F8BE /* main.swift */; };
@@ -68,6 +69,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		4C588D2926AF08EF000ADC3E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4C7EA19426CBA19300F23BCC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4C7EA19F26CBA1C400F23BCC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -154,6 +173,9 @@
 		4C4FD53826A67EBC003B96F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4C588D2B26AF08EF000ADC3E /* 그룹단어체커_1316 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "그룹단어체커_1316"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C588D2D26AF08EF000ADC3E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "../그룹단어체커_1316/main.swift"; sourceTree = "<group>"; };
+		4C7EA19626CBA19300F23BCC /* 로봇청소기_14503 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "로봇청소기_14503"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7EA1A126CBA1C400F23BCC /* 로봇청소기1_14503 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "로봇청소기1_14503"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7EA1A326CBA1C500F23BCC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "../로봇청소기1_14503/main.swift"; sourceTree = "<group>"; };
 		4C8C2DB126B932B200ABAA23 /* 경비원_2564 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "경비원_2564"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8C2DB326B932B200ABAA23 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "../경비원_2564/main.swift"; sourceTree = "<group>"; };
 		4C9100C826AF149C0072F8BE /* 통계학_2108 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "통계학_2108"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -207,6 +229,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4C588D2826AF08EF000ADC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7EA19326CBA19300F23BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7EA19E26CBA1C400F23BCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,6 +317,7 @@
 				4CA1A4D226C6269D007DCCA9 /* 에라토스테네스의 체_2960 */,
 				4CA1A4DD26C642C4007DCCA9 /* 연산자 끼워넣기_15658 */,
 				4CA1A4E826C6546F007DCCA9 /* 크로아티아 알파벳_2941 */,
+				4C7EA1A226CBA1C500F23BCC /* 로봇청소기1_14503 */,
 				4C4FD4E226A56880003B96F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -301,6 +338,8 @@
 				4CA1A4D126C6269D007DCCA9 /* 에라토스테네스의 체_2960 */,
 				4CA1A4DC26C642C4007DCCA9 /* 연산자 끼워넣기_15658 */,
 				4CA1A4E726C6546F007DCCA9 /* 크로아티아 알파벳_2941 */,
+				4C7EA19626CBA19300F23BCC /* 로봇청소기_14503 */,
+				4C7EA1A126CBA1C400F23BCC /* 로봇청소기1_14503 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -351,6 +390,14 @@
 				4C588D2D26AF08EF000ADC3E /* main.swift */,
 			);
 			path = "그룹단어체커_1316";
+			sourceTree = "<group>";
+		};
+		4C7EA1A226CBA1C500F23BCC /* 로봇청소기1_14503 */ = {
+			isa = PBXGroup;
+			children = (
+				4C7EA1A326CBA1C500F23BCC /* main.swift */,
+			);
+			path = "로봇청소기1_14503";
 			sourceTree = "<group>";
 		};
 		4C8C2DB226B932B200ABAA23 /* 경비원_2564 */ = {
@@ -514,6 +561,40 @@
 			productReference = 4C588D2B26AF08EF000ADC3E /* 그룹단어체커_1316 */;
 			productType = "com.apple.product-type.tool";
 		};
+		4C7EA19526CBA19300F23BCC /* 로봇청소기_14503 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C7EA19C26CBA19400F23BCC /* Build configuration list for PBXNativeTarget "로봇청소기_14503" */;
+			buildPhases = (
+				4C7EA19226CBA19300F23BCC /* Sources */,
+				4C7EA19326CBA19300F23BCC /* Frameworks */,
+				4C7EA19426CBA19300F23BCC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "로봇청소기_14503";
+			productName = "로봇청소기_14503";
+			productReference = 4C7EA19626CBA19300F23BCC /* 로봇청소기_14503 */;
+			productType = "com.apple.product-type.tool";
+		};
+		4C7EA1A026CBA1C400F23BCC /* 로봇청소기1_14503 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C7EA1A526CBA1C500F23BCC /* Build configuration list for PBXNativeTarget "로봇청소기1_14503" */;
+			buildPhases = (
+				4C7EA19D26CBA1C400F23BCC /* Sources */,
+				4C7EA19E26CBA1C400F23BCC /* Frameworks */,
+				4C7EA19F26CBA1C400F23BCC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "로봇청소기1_14503";
+			productName = "로봇청소기1_14503";
+			productReference = 4C7EA1A126CBA1C400F23BCC /* 로봇청소기1_14503 */;
+			productType = "com.apple.product-type.tool";
+		};
 		4C8C2DB026B932B200ABAA23 /* 경비원_2564 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C8C2DB726B932B200ABAA23 /* Build configuration list for PBXNativeTarget "경비원_2564" */;
@@ -660,6 +741,12 @@
 					4C588D2A26AF08EF000ADC3E = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					4C7EA19526CBA19300F23BCC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4C7EA1A026CBA1C400F23BCC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					4C8C2DB026B932B200ABAA23 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -709,6 +796,8 @@
 				4CA1A4D026C6269D007DCCA9 /* 에라토스테네스의 체_2960 */,
 				4CA1A4DB26C642C4007DCCA9 /* 연산자 끼워넣기_15658 */,
 				4CA1A4E626C6546F007DCCA9 /* 크로아티아 알파벳_2941 */,
+				4C7EA19526CBA19300F23BCC /* 로봇청소기_14503 */,
+				4C7EA1A026CBA1C400F23BCC /* 로봇청소기1_14503 */,
 			);
 		};
 /* End PBXProject section */
@@ -758,6 +847,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C588D2E26AF08EF000ADC3E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7EA19226CBA19300F23BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7EA19D26CBA1C400F23BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7EA1A426CBA1C500F23BCC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1067,6 +1171,54 @@
 			};
 			name = Release;
 		};
+		4C7EA19A26CBA19400F23BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY959SAN47;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C7EA19B26CBA19400F23BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY959SAN47;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4C7EA1A626CBA1C500F23BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY959SAN47;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C7EA1A726CBA1C500F23BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY959SAN47;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		4C8C2DB526B932B200ABAA23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1289,6 +1441,24 @@
 			buildConfigurations = (
 				4C588D2F26AF08EF000ADC3E /* Debug */,
 				4C588D3026AF08EF000ADC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C7EA19C26CBA19400F23BCC /* Build configuration list for PBXNativeTarget "로봇청소기_14503" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7EA19A26CBA19400F23BCC /* Debug */,
+				4C7EA19B26CBA19400F23BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C7EA1A526CBA1C500F23BCC /* Build configuration list for PBXNativeTarget "로봇청소기1_14503" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7EA1A626CBA1C500F23BCC /* Debug */,
+				4C7EA1A726CBA1C500F23BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

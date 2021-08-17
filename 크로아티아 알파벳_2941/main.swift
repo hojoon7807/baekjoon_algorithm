@@ -7,10 +7,13 @@
 import Foundation
 
 let croatia = ["c=","c-","dz=","d-","lj","nj","s=","z="]
+
 let alpha = Array(readLine()!)
+
 var count = 0
 var i = 0
 let length = alpha.count
+
 func search(_ str: String)->Int{
     if croatia.contains(str){
         return 1
